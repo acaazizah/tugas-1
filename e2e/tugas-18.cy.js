@@ -20,7 +20,6 @@ describe('API testing dengan Cypress', () => {
       expect(firstUser).to.have.property('id');
     });
   });
-  
 
   it('Single User API - User dengan ID 2', () => {
     cy.request({
